@@ -2,10 +2,12 @@ var debug = require('debug')('app.js')
 var config = require('./config')
 var express = require('express')
 var morgan = require('morgan')
+var livereload = require('connect-livereload')
 
 var app = express()
 
 app.use(morgan('combined'))
+app.use(livereload({port: 35729}));
 app.use(express.static('frontend'))
 
 // export the app for testing

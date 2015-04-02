@@ -18,19 +18,20 @@
     "mocha": true
   },
   "dependencies": {
-    "bower": "~1.4.1",
-    "debug": "~2.0.0",
-    "moment": "~2.9.0",
-    "jshint": "~2.5.5",
     "body-parser": "~1.11.0",
+    "bower": "~1.4.1",
+    "connect-livereload": "^0.5.3",
     "debug": "~2.0.0",
     "express": "~4.12.3",
-    "mongodb": "~1.4.10",
-    "redis": "~0.12.1",
-    "lodash": "~3.6.0",
-    "uuid4": "~1.0.0",
-    "morgan": "~1.5.2",
     "gulp": "*",
-    "gulp-sass": "*"
+    "gulp-sass": "*",
+    "jshint": "~2.5.5",
+    "lodash": "~3.6.0",
+    "moment": "~2.9.0",
+    "mongodb": "~1.4.10",
+    "morgan": "~1.5.2",
+    "redis": "~0.12.1",
+    "uuid4": "~1.0.0",
+    "gulp-express": "~0.3.5"
   }
 }
