@@ -1,5 +1,8 @@
-ExpoSync
+Node+Express+Gulp+Sass+Livereload Starter Project
 ========
+
+This is a starter project with Node, Express, Gulp, Sass, Livereload,
+and a few other things like Redis and Mongo.
 
 Prerequisites:
 -------------
@@ -19,7 +22,12 @@ Install packages (inside vagrant box)
 - `npm install` - This has a post-install step which installs bower packages.
 - `npm run bower_install` - If you ever change bower and you just want to reinstall packages.
 
-Run (inside vagran box)
+Run (inside vagrant box)
 ----
-- `npm run`
+- `npm start`
 - You will now have the server running on http://localhost:3000 accessible from the host machine.
+
+Sass, Livereload
+--------------
+- Frontend files are in frontend/, and if you modify HTML/CSS while the server is running, they are live-reloaded.
+- The frontend/styles/css folder is generated from frontend/styles/scss contents. Don't modify anything in frontend/styles/css.
