@@ -10,7 +10,7 @@
     "lint": "rm -rf ./coverage && find . | grep js$ | grep -v node_modules | xargs jshint",
     "postinstall": "npm run bower_install",
     "bower_install": "cd frontend && bower install",
-    "start": "gulp express"
+    "start": "gulp styles express watch"
   },
   "jshintConfig": {
     "asi": true,

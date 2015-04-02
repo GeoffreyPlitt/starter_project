@@ -5,12 +5,16 @@ gulp.task('express', function() {
   require('./app')
 })
 
-gulp.task('sass', function () {
+gulp.task('styles', function () {
     gulp.src('frontend/styles/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('frontend/styles/css'))
 })
 
-gulp.task('default', ['express'], function() {
+gulp.task('watch', function() {
+  gulp.watch('frontend/styles/scss/*.scss', ['styles']);
+})
+
+gulp.task('default', ['styles', 'express', 'watch'], function() {
 
 })
