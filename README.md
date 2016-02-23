@@ -1,4 +1,4 @@
-Node+Express+Gulp+Sass+Livereload Starter Project 
+Node+Express+Gulp+Sass+Livereload Starter Project
 ========
 
 This is a starter project with Node, Express, Gulp, Sass, Livereload,
