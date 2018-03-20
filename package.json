@@ -27,7 +27,7 @@
     "gulp-sass": "*",
     "jshint": "~2.5.5",
     "lodash": "~3.6.0",
-    "moment": "~2.11.2",
+    "moment": "~2.19.3",
     "mongodb": "~1.4.10",
     "morgan": "~1.5.2",
     "redis": "~0.12.1",
